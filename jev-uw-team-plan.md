@@ -52,6 +52,7 @@ Backend (FastAPI)
 **Stack**
 - Extension: TypeScript, React, WXT, Tailwind
 - Backend: Python 3.12, FastAPI, Pydantic, SQLAlchemy, Postgres (SQLite locally), APScheduler, langchain-typesafe or direct HTTP for Jev, Claude or OpenAI SDK
+- Watch Service: Java 21, Spring Boot (services/watch-service/)
 - Hosting: Render, Railway, or Fly
 
 ## Request flow
