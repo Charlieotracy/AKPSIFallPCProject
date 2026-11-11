@@ -1,0 +1,11 @@
+{
+  "found": 5,
+  "success": true,
+  "hits": [
+    {"termCode": "1272", "courseId": "023153", "subject": {"subjectCode": "320", "shortDescription": "E C E"}, "catalogNumber": "235", "title": "Introduction to Solid State Electronics", "courseDesignation": "E C E 235"},
+    {"termCode": "1272", "courseId": "006287", "subject": {"subjectCode": "320", "shortDescription": "E C E"}, "catalogNumber": "230", "title": "Circuit Analysis", "courseDesignation": "E C E 230"},
+    {"termCode": "1272", "courseId": "006492", "subject": {"subjectCode": "320", "shortDescription": "E C E"}, "catalogNumber": "748", "title": "Linear Waves", "courseDesignation": "E C E 748"},
+    {"termCode": "1272", "courseId": "025407", "subject": {"subjectCode": "320", "shortDescription": "E C E"}, "catalogNumber": "747", "title": "Nanophotonics", "courseDesignation": "E C E 747"},
+    {"termCode": "1272", "courseId": "024047", "subject": {"subjectCode": "320", "shortDescription": "E C E"}, "catalogNumber": "506", "title": "Software Engineering", "courseDesignation": "E C E 506"}
+  ]
+}

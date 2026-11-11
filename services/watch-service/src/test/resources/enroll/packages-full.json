@@ -1,0 +1,164 @@
+[
+  {
+    "id": "35921",
+    "termCode": "1272",
+    "subjectCode": "320",
+    "courseId": "006287",
+    "catalogNumber": "230",
+    "enrollmentClassNumber": 35921,
+    "packageEnrollmentStatus": {
+      "availableSeats": 0,
+      "waitlistTotal": 0,
+      "status": "CLOSED"
+    },
+    "sections": [
+      {
+        "classUniqueId": {
+          "termCode": "1272",
+          "classNumber": 35921
+        },
+        "type": "LEC",
+        "sectionNumber": "002",
+        "enrollmentStatus": {
+          "classUniqueId": {
+            "termCode": "1272",
+            "classNumber": 35921
+          },
+          "capacity": 100,
+          "currentlyEnrolled": 100,
+          "waitlistCapacity": 0,
+          "waitlistCurrentSize": 0,
+          "openSeats": 0,
+          "openWaitlistSpots": 0
+        },
+        "classMeetings": [
+          {
+            "meetingType": "Class",
+            "meetingTimeStart": 73800000,
+            "meetingTimeEnd": 78300000,
+            "meetingDaysList": [
+              "MONDAY",
+              "WEDNESDAY",
+              "FRIDAY"
+            ]
+          },
+          {
+            "meetingType": "Exam",
+            "meetingTimeStart": 74700000,
+            "meetingTimeEnd": 81900000,
+            "meetingDaysList": []
+          }
+        ]
+      }
+    ],
+    "enrollmentPackageUniqueId": {
+      "termCode": "1272",
+      "subjectCode": "320",
+      "catalogNumber": "230",
+      "sessionCode": "A1",
+      "packageId": "002"
+    },
+    "docId": "enrollmentPackage-1272-A1-320-230-002"
+  },
+  {
+    "id": "29465",
+    "termCode": "1272",
+    "subjectCode": "320",
+    "courseId": "006287",
+    "catalogNumber": "230",
+    "enrollmentClassNumber": 29465,
+    "packageEnrollmentStatus": {
+      "availableSeats": 0,
+      "waitlistTotal": 40,
+      "status": "CLOSED"
+    },
+    "sections": [
+      {
+        "classUniqueId": {
+          "termCode": "1272",
+          "classNumber": 18730
+        },
+        "type": "LEC",
+        "sectionNumber": "001",
+        "enrollmentStatus": {
+          "classUniqueId": {
+            "termCode": "1272",
+            "classNumber": 18730
+          },
+          "capacity": 100,
+          "currentlyEnrolled": 100,
+          "waitlistCapacity": 20,
+          "waitlistCurrentSize": 20,
+          "openSeats": 0,
+          "openWaitlistSpots": 0
+        },
+        "classMeetings": [
+          {
+            "meetingType": "Class",
+            "meetingTimeStart": 69600000,
+            "meetingTimeEnd": 72600000,
+            "meetingDaysList": [
+              "MONDAY",
+              "TUESDAY",
+              "THURSDAY"
+            ]
+          },
+          {
+            "meetingType": "Exam",
+            "meetingTimeStart": 74700000,
+            "meetingTimeEnd": 81900000,
+            "meetingDaysList": []
+          },
+          {
+            "meetingType": "Class",
+            "meetingTimeStart": 69600000,
+            "meetingTimeEnd": 72600000,
+            "meetingDaysList": [
+              "MONDAY",
+              "TUESDAY",
+              "THURSDAY"
+            ]
+          }
+        ]
+      },
+      {
+        "classUniqueId": {
+          "termCode": "1272",
+          "classNumber": 29465
+        },
+        "type": "DIS",
+        "sectionNumber": "301",
+        "enrollmentStatus": {
+          "classUniqueId": {
+            "termCode": "1272",
+            "classNumber": 29465
+          },
+          "capacity": 100,
+          "currentlyEnrolled": 100,
+          "waitlistCapacity": 40,
+          "waitlistCurrentSize": 40,
+          "openSeats": 0,
+          "openWaitlistSpots": 0
+        },
+        "classMeetings": [
+          {
+            "meetingType": "Class",
+            "meetingTimeStart": 69600000,
+            "meetingTimeEnd": 72600000,
+            "meetingDaysList": [
+              "WEDNESDAY"
+            ]
+          }
+        ]
+      }
+    ],
+    "enrollmentPackageUniqueId": {
+      "termCode": "1272",
+      "subjectCode": "320",
+      "catalogNumber": "230",
+      "sessionCode": "A1",
+      "packageId": "001-301"
+    },
+    "docId": "enrollmentPackage-1272-A1-320-230-001-301"
+  }
+]
