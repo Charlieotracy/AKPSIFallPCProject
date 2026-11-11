@@ -1,0 +1,36 @@
+name: watch-service
+
+on:
+  push:
+    paths:
+      - "services/watch-service/**"
+      - ".github/workflows/watch-service.yml"
+  pull_request:
+    paths:
+      - "services/watch-service/**"
+      - ".github/workflows/watch-service.yml"
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: services/watch-service
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "21"
+          cache: gradle
+
+      - name: Run tests
+        run: ./gradlew test --no-daemon
+
+      - name: Upload test reports
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: watch-service-test-reports
+          path: services/watch-service/build/reports/tests/

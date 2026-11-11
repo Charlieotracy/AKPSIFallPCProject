@@ -1,0 +1,12 @@
+# Raw captures from the browser contain instructor info we don't need to commit
+services/watch-service/src/test/resources/enroll/raw/
+
+# Gradle / build output
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# IDE
+.idea/
+*.iml
+.vscode/

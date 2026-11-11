@@ -1,0 +1,26 @@
+services:
+  postgres:
+    image: postgres:16
+    environment:
+      POSTGRES_DB: watch
+      POSTGRES_USER: watch
+      POSTGRES_PASSWORD: watch
+    ports:
+      - "5432:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U watch -d watch"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+  watch-service:
+    build: .
+    depends_on:
+      postgres:
+        condition: service_healthy
+    environment:
+      DB_URL: jdbc:postgresql://postgres:5432/watch
+      DB_USER: watch
+      DB_PASSWORD: watch
+    ports:
+      - "8080:8080"

@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: watch-service
+  datasource:
+    url: ${DB_URL:jdbc:postgresql://localhost:5432/watch}
+    username: ${DB_USER:watch}
+    password: ${DB_PASSWORD:watch}
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    open-in-view: false
+  flyway:
+    enabled: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+  endpoint:
+    health:
+      probes:
+        enabled: true
+
+enroll:
+  api:
+    base-url: ${ENROLL_API_BASE_URL:https://public.enroll.wisc.edu}
