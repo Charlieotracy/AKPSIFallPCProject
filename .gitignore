@@ -10,3 +10,9 @@ build/
 .idea/
 *.iml
 .vscode/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+**/.pytest_cache/

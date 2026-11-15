@@ -1,0 +1,15 @@
+{"state": "Sign in with your NetID to continue. [Username] [Password] Login with Duo", "label": "login_required"}
+{"state": "Welcome back! Please verify with Duo Mobile to proceed.", "label": "login_required"}
+{"state": "Available Slots: Thu Nov 20 2:30 PM, Thu Nov 20 3:00 PM, Fri Nov 21 10:00 AM [Book]", "label": "expected_page"}
+{"state": "Your appointment is confirmed for Nov 18 at 9:00 AM. [Add to calendar]", "label": "expected_page"}
+{"state": "Cart: ECE 230 LEC 002. [Review] [Submit Enrollment]", "label": "expected_page"}
+{"state": "Something went wrong. Error code 500. Please try again later.", "label": "error"}
+{"state": "This page could not be found (404).", "label": "error"}
+{"state": "Your session has timed out due to inactivity.", "label": "login_required"}
+{"state": "<blank page with a spinning loader icon>", "label": "unexpected"}
+{"state": "We are undergoing scheduled maintenance. Check back soon.", "label": "unexpected"}
+{"state": "Select an exam reservation: Midterm 1, Nov 19 1:00 PM [Select] [Cancel]", "label": "expected_page"}
+{"state": "Captcha verification required before continuing.", "label": "unexpected"}
+{"state": "Access denied: you do not have permission to view this resource.", "label": "error"}
+{"state": "Please re-authenticate with Duo to access MyUHS.", "label": "login_required"}
+{"state": "No seats currently available for this section. [Join Waitlist]", "label": "expected_page"}

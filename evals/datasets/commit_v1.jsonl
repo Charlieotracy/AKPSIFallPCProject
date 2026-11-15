@@ -1,0 +1,18 @@
+{"state": "click element 4 ('Submit Enrollment')", "label": true}
+{"state": "click element 2 ('Book this slot')", "label": true}
+{"state": "click element 1 ('Confirm appointment')", "label": true}
+{"state": "click element 7 ('Pay $35.00 and reserve ticket')", "label": true}
+{"state": "click element 3 ('Cancel reservation')", "label": true}
+{"state": "click element 9 ('Add to cart')", "label": true}
+{"state": "click element 0 ('Next slot >')", "label": false}
+{"state": "click element 5 ('View details')", "label": false}
+{"state": "click element 6 ('Filter by date')", "label": false}
+{"state": "click element 8 ('Sign in with NetID')", "label": false}
+{"state": "click element 2 ('Expand section description')", "label": false}
+{"state": "click element 10 ('Back to search results')", "label": false}
+{"state": "click element 1 ('Join waitlist')", "label": true}
+{"state": "click element 4 ('Enroll in LEC 002')", "label": true}
+{"state": "click element 3 ('Download .ics file')", "label": false}
+{"state": "click element 2 ('Change notification preferences')", "label": false}
+{"state": "click element 5 ('Finalize and submit')", "label": true}
+{"state": "click element 6 ('Remove from cart')", "label": true}

@@ -1,0 +1,20 @@
+{"state": {"module": "cbtf", "course": "CS 354", "exam": "Midterm 1", "earliest": null, "latest": "2026-11-20T14:00:00"}, "label": true}
+{"state": {"module": "cbtf", "course": "CS 354", "exam": null, "earliest": null, "latest": null}, "label": false}
+{"state": {"module": "courses", "course": "ECE 230", "section_type": null}, "label": true}
+{"state": {"module": "courses", "course": null}, "label": false}
+{"state": {"module": "uhs", "reason": "sore throat", "earliest": "2026-11-16T09:00:00", "latest": null}, "label": true}
+{"state": {"module": "uhs", "reason": null, "earliest": null, "latest": null}, "label": false}
+{"state": {"module": "tickets", "event": "Badgers vs Iowa", "max_price": 40}, "label": true}
+{"state": {"module": "tickets", "event": null, "max_price": null}, "label": false}
+{"state": {"module": "cbtf", "course": "ECON 101", "exam": "Final", "earliest": "2026-12-10T00:00:00", "latest": "2026-12-14T00:00:00"}, "label": true}
+{"state": {"module": "uhs", "reason": "flu shot", "earliest": null, "latest": null}, "label": true}
+{"state": {"module": "courses", "course": "STAT 240", "section_type": "discussion"}, "label": true}
+{"state": {"module": "uhs", "reason": "allergy follow-up", "earliest": null, "latest": "next week"}, "label": true}
+{"state": {"module": "cbtf", "course": null, "exam": "Midterm 2", "earliest": null, "latest": null}, "label": false}
+{"state": {"module": "tickets", "event": "hockey game", "max_price": null}, "label": true}
+{"state": {"module": "courses", "course": "PSYCH 202", "section_type": null}, "label": true}
+{"state": {"module": "uhs", "reason": null, "earliest": "2026-11-18T10:00:00", "latest": null}, "label": false}
+{"state": {"module": "cbtf", "course": "PHYSICS 207", "exam": null, "earliest": "2026-11-21T00:00:00", "latest": null}, "label": false}
+{"state": {"module": "tickets", "event": null, "max_price": 50}, "label": false}
+{"state": {"module": "courses", "course": "MATH 221", "section_type": null}, "label": true}
+{"state": {"module": "uhs", "reason": "physical exam", "earliest": "2026-11-17T08:00:00", "latest": "2026-11-17T17:00:00"}, "label": true}
