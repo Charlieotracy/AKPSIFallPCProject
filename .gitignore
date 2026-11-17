@@ -10,3 +10,14 @@ build/
 .idea/
 *.iml
 .vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+
+# macOS
+.DS_Store
