@@ -10,3 +10,16 @@ build/
 .idea/
 *.iml
 .vscode/
+
+# Python backend
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+.env
+*.db
+*.sqlite
+*.sqlite3
+backend/reports/
