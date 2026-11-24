@@ -120,6 +120,7 @@ def make_task(sessionmaker):
 def make_client():
     """Build an app from `settings`, run its lifespan, and yield an HTTP client for it."""
     import httpx
+    
     from app.main import create_app
 
     @asynccontextmanager
